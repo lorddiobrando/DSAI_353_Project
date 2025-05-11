@@ -66,9 +66,9 @@ class SentimentModel(nn.Module):
         return torch.sigmoid(self.fc2(x)).squeeze()
 
 def load_artifacts():
-    with open("./Models/config.json", "r") as f:
+    with open("./Data/processed/config.json", "r") as f:
         config = json.load(f)
-    with open("./Models/vocab.pkl", "rb") as f:
+    with open("./Data/processed/vocab.pkl", "rb") as f:
         vocab = pickle.load(f)
     return config, vocab
 
