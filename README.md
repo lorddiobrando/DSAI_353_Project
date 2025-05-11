@@ -131,7 +131,7 @@ The project includes a Flask API that allows users to select a trained model, in
    - Ensure you have installed  `scikit-learn`, `torch`, `numpy`, `pandas`, `nltk`, `joblib`, `matplotlib`, and `flask` installed as described in the "Setup" section.
 
 2. **Verify Model Files**:
-   - Ensure the `./Models` directory contains the trained model files (e.g., `logistic_regression.joblib`, `complete_model.pth`) and supporting files (`tfidf_vectorizer.pkl`, `vocab.pkl`, `config.json`).
+   - Ensure the `./Models` directory contains the trained model files (e.g., `logistic_regression.joblib`, `complete_model.pth`) and the `./Data/processed` directory contains the supporting files (`tfidf_vectorizer.pkl`, `vocab.pkl`, `config.json`).
    - Ensure the `./Embeddings` directory contains `glove.6B.300d.txt`.
 
 3. **Directory Structure**:
